@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mindscape Psychology – Dr. Nicole Yammine | Contact</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+
+<body class="text-slate-800">
+
+  <div class="hidden md:flex justify-end items-center px-10 py-2 text-xs tracking-wide bg-[#f3eee3] text-slate-700">
+    <span class="mr-6">✉️ nicole@mindscape-psychology.com</span>
+    <span>📞 +358 442 402 057</span>
+  </div>
+
+  <nav class="flex justify-between items-center px-6 md:px-10 py-4 bg-[#f7f3eb]/95 backdrop-blur-md shadow-sm sticky top-0 z-50">
+    <a href="/" class="flex items-center space-x-3">
+      <img src="/img/logo.png" alt="Mindscape Psychology Logo" class="h-10 w-auto">
+      <span class="font-bold text-lg md:text-xl text-[#145c3b] hidden sm:block">Mindscape Psychology</span>
+    </a>
+
+    <div class="hidden md:flex space-x-6 text-[11px] lg:text-xs uppercase tracking-[0.18em] font-semibold text-slate-700">
+      <a href="/" class="nav-link hover:text-[#145c3b] transition">Home</a>
+      <a href="/about" class="nav-link hover:text-[#145c3b] transition">About</a>
+      <a href="/services" class="nav-link hover:text-[#145c3b] transition">Services</a>
+      <a href="/booking" class="nav-link hover:text-[#145c3b] transition">Booking</a>
+      <a href="/blog" class="nav-link hover:text-[#145c3b] transition">Blog</a>
+      <a href="/contact" class="nav-link hover:text-[#145c3b] transition">Contact</a>
+    </div>
+
+    <button class="md:hidden text-slate-800 text-2xl" id="mobile-menu-btn" aria-label="Toggle navigation">☰</button>
+  </nav>
+
+  <div id="mobile-menu" class="md:hidden hidden bg-[#f7f3eb] border-b border-slate-200">
+    <div class="flex flex-col px-6 py-4 space-y-3 text-xs font-semibold uppercase tracking-[0.18em] text-slate-700">
+      <a href="/" class="nav-link hover:text-[#145c3b] transition">Home</a>
+      <a href="/about" class="nav-link hover:text-[#145c3b] transition">About</a>
+      <a href="/services" class="nav-link hover:text-[#145c3b] transition">Services</a>
+      <a href="/booking" class="nav-link hover:text-[#145c3b] transition">Booking</a>
+      <a href="/blog" class="nav-link hover:text-[#145c3b] transition">Blog</a>
+      <a href="/contact" class="nav-link hover:text-[#145c3b] transition">Contact</a>
+    </div>
+  </div>
+
+  <main>
+    <section class="py-24 px-6 bg-white">
+      <div class="max-w-5xl mx-auto">
+        <h1 class="text-3xl md:text-4xl text-center text-[#14352a] mb-8 font-serif">Get in Touch</h1>
+
+        <div class="text-center max-w-2xl mx-auto text-slate-700 mb-10 space-y-2">
+          <p>If you have questions before booking or want to discuss whether therapy is right for you, I'm happy to help.</p>
+          <p class="font-semibold">I aim to respond within 24 hours.</p>
+        </div>
+
+        <div class="grid md:grid-cols-2 gap-10 items-start">
+          <div class="bg-[#f7f3eb] rounded-2xl shadow-sm p-6 md:p-8 border border-slate-100">
+            <h2 class="text-2xl text-[#14352a] mb-4 font-serif">Contact Information</h2>
+            <p class="text-slate-700 mb-3">
+              <strong class="text-[#145c3b]">Email:</strong><br>
+              nicole@mindscape-psychology.com
+            </p>
+            <p class="text-slate-700 mb-3">
+              <strong class="text-[#145c3b]">Phone:</strong><br>
+              +358 442 402 057
+            </p>
+            <p class="mt-6 text-sm italic text-slate-600">
+              You are welcome to write in English, French, Arabic, or Finnish.
+            </p>
+          </div>
+
+          <form class="space-y-4 bg-[#f7f3eb] rounded-2xl shadow-sm p-6 md:p-8 border border-slate-100">
+            <input type="text" name="name" placeholder="Your Name" required
+              class="w-full p-3 border border-slate-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#145c3b] bg-white">
+
+            <input type="email" name="email" placeholder="Your Email" required
+              class="w-full p-3 border border-slate-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#145c3b] bg-white">
+
+            <textarea name="message" placeholder="Your Message" required
+              class="w-full p-3 border border-slate-300 rounded-lg min-h-[130px] resize-y focus:outline-none focus:ring-2 focus:ring-[#145c3b] bg-white"></textarea>
+
+            <select name="contact_method" required
+              class="w-full p-3 border border-slate-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#145c3b] bg-white">
+              <option value="">Preferred contact method</option>
+              <option value="email">Email</option>
+              <option value="phone">Phone</option>
+            </select>
+
+            <button type="submit"
+              class="w-full bg-[#145c3b] text-white py-3 rounded-lg font-semibold hover:bg-[#0e3d28] transition shadow">
+              Send Message
+            </button>
+
+            <p class="text-xs text-slate-500 text-center mt-2">
+              (This form is front-end only — you can connect it later to email/DB.)
+            </p>
+          </form>
+        </div>
+
+        <p class="mt-6 text-center text-sm text-slate-500 italic">
+          You can also reach out directly via email or phone.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-[#14352a] text-slate-200 py-12 px-6">
+    <div class="max-w-6xl mx-auto grid md:grid-cols-3 gap-10 text-sm">
+      <div>
+        <h4 class="text-white font-semibold mb-3 text-lg font-serif">Mindscape Psychology</h4>
+        <p>Dr. Nicole Yammine</p>
+        <p>Online psychological services for individuals and couples.</p>
+        <p class="mt-2 text-slate-300">English · French · Arabic · Finnish</p>
+      </div>
+
+      <div>
+        <h4 class="text-white font-semibold mb-3 text-lg font-serif">Navigation</h4>
+        <div class="flex flex-wrap gap-3">
+          <a href="/" class="nav-link hover:text-emerald-300">Home</a>
+          <a href="/about" class="nav-link hover:text-emerald-300">About</a>
+          <a href="/services" class="nav-link hover:text-emerald-300">Services</a>
+          <a href="/booking" class="nav-link hover:text-emerald-300">Booking</a>
+          <a href="/blog" class="nav-link hover:text-emerald-300">Blog</a>
+          <a href="/contact" class="nav-link hover:text-emerald-300">Contact</a>
+        </div>
+      </div>
+
+      <div>
+        <div class="bg-rose-50 border border-rose-200 text-rose-900 rounded-xl p-4">
+          <strong class="block mb-1 text-rose-700">Important</strong>
+          <p class="text-xs leading-relaxed">
+            This service does not provide emergency or crisis intervention.
+            If you are in immediate danger or feel unable to keep yourself safe,
+            please contact your local emergency number.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="max-w-6xl mx-auto mt-8 pt-4 border-t border-slate-700 text-center text-xs text-slate-400">
+      © 2026 Mindscape Psychology — All Rights Reserved
+    </div>
+  </footer>
+
+  <script src="/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap');
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #f7f3eb; /* soft cream */
+}
+
+h1, h2, h3, h4, .font-serif {
+  font-family: 'Playfair Display', serif;
+}
+
+/* Hero */
+.hero-wrap {
+  background-color: #f7f3eb;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-image {
+  background-image: url('/img/hero-hands.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+/* Active nav */
+.nav-link-active {
+  color: #145c3b !important;
+  border-bottom: 2px solid #145c3b;
+  padding-bottom: 2px;
+}
